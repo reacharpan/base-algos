@@ -20,4 +20,8 @@ def get_primes(sieveSize):
 
     return primes
           
-print(get_primes(100))
+if __name__ == "__main__":
+    sieveSize = int(input("Enter a number upto which you want all prime numbers (not-inclusive of the number): "))
+    if sieveSize < 0 or sieveSize > 1e6:
+        raise ValueError( "Only enter an integer between 0 and 1e6 (inclusive)" )
+    print(get_primes(sieveSize))f
