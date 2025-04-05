@@ -15,7 +15,7 @@ pip install .
 Alternatively, you can clone the repository and install the dependencies listed in `requirements.txt`:
 
 ```
-git clone https://github.com/yourusername/base-algos.git
+git clone https://github.com/reacharpan/base-algos.git
 cd base-algos
 pip install -r requirements.txt
 ```

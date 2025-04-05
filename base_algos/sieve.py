@@ -1,3 +1,5 @@
+import math
+
 def get_primes(sieveSize):
     ''' Returns a list of prime numbers calculated using
     the Sieve of Eratosthenes algorithm'''	
